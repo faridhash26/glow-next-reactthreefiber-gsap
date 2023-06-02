@@ -28,6 +28,17 @@ const Glow = forwardRef<any, any>(({}, parallaxRef: any) => {
         scrub: true,
       },
     });
+    gsap.to(groupRef.current.rotation, {
+      y: Math.PI * 1.25,
+      duration: 1,
+      onUpdate: () => camera.updateProjectionMatrix(),
+      scrollTrigger: {
+        trigger: "#root",
+        start: "top top",
+        end: "bottom bottom",
+        scrub: true,
+      },
+    });
   });
 
   return (
