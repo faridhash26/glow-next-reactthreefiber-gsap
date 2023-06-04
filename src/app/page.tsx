@@ -15,7 +15,7 @@ export default function Home() {
           <h1>برنامه نویس وب</h1>
           <h1>فرید هاشمیان</h1>
         </section>
-        <section className="  w-[90%] justify-start h-[1000px] flex items-center   p-x-[10%] ">
+        <section className="  w-[90%] justify-start h-[1000px] flex items-center text-white  p-x-[10%] ">
           <div className="flex flex-col items-center">
             <h2 className="text-[7vmin]">درباره من</h2>
             <p className="text-[3vmin]">علاقه مند به طراحی ۳ بعدی در وب سایت</p>
